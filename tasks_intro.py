@@ -3,7 +3,7 @@ import trio
 async def child1():
     print("  child1: started! sleeping now...")
     # do not forget the await!
-    await trio.sleep(5)
+    await trio.sleep(2)
     print("  child1: exiting!")
 
 async def child2():
